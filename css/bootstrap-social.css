@@ -420,3 +420,18 @@
         border-bottom: 1px solid rgba(0,0,0,.125);
     }
 }
+
+.fadeinandout {
+	-webkit-animation: fadeinout 1.5s linear forwards;
+    animation: fadeinout 1.5s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
